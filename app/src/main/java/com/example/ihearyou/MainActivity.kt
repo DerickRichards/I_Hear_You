@@ -55,6 +55,7 @@ fun IHearYouApp() {
                     // Called when the system is ready to accept speech input
                 }
 
+
                 override fun onBeginningOfSpeech() {
                     // Called when the user starts speaking
                 }
