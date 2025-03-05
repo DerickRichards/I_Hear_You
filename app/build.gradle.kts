@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.IHearYou"
-    compileSdk = 34
+    namespace = "com.example.ihearyou"
+    compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.IHearYou"
+        applicationId = "com.example.ihearyou"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -68,4 +68,9 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation(libs.androidx.core.ktx.v1120)
     implementation(libs.androidx.activity.compose.v170)
+    implementation (libs.androidx.activity.compose)
+    implementation (libs.material3)
+    implementation (libs.ui.tooling.preview)
+    implementation (libs.androidx.lifecycle.runtime.ktx)
+    implementation (libs.androidx.runtime.livedata)
 }
